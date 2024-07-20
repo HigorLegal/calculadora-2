@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:linear-gradient(to top, #535353,rgb(6, 1, 27)); ;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .calculator {
+    background-image:url("https://steamuserimages-a.akamaihd.net/ugc/776155680297657535/02F0EABF17FE99701D05F371387381E3DD696C6C/") ;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .display {
+    background-color: #444;
+    border: 2px solid #555;
+    border-radius: 8px;
+    color: #eee;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    background-color: #666;
+    border: none;
+    border-radius: 6px;
+    color: #eee;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #5f4699;
+  }
